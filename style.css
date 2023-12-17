@@ -3,14 +3,14 @@ html {
   width: 100%;
 }
 
-/* Apply a background color and set font styles */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Style the navigation menu */
+
 nav {
     background-color: #333;
 }
@@ -51,3 +51,96 @@ h1 {
     color: #333;
 }
 
+.container {
+    display: flex;
+}
+
+.image-section {
+    flex: 1;
+    background-color: #ccc; 
+    height: 100vh; 
+}
+
+.image-placeholder {
+    background-image: url('img/bench-accounting-nvzvOPQW0gc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.form-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section label,
+.form-section input,
+.form-section select,
+.form-section textarea {
+  margin-bottom: 10px;
+}
+
+.form-section .fields {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-section .fields label,
+.form-section .fields input,
+.form-section .fields select,
+.form-section .fields textarea {
+  width: 48%;
+}
+
+.form-section input,
+.form-section select,
+.form-section textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+
+
+
+
+
+/*input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}*/
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+h1 {
+    color: #333;
+}
+
+
+
+.form-section input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-section input[type="submit"]:hover {
+  background-color: #45a049;
+}
